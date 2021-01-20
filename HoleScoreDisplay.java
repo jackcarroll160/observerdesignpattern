@@ -11,6 +11,8 @@ public class HoleScoreDisplay implements Observer {
     public void update(int strokes, int par) {
         this.strokes += strokes;
         this.par += par;
+
+        displayCurrentScore();
     }
 
     private void displayCurrentScore() {
