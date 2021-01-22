@@ -1,7 +1,7 @@
 /**
- * Interface for Subject extending Observer
+ * Interface for Subject
  */
-public interface Subject extends Observer {
+public interface Subject {
     public void registerObserver(Observer observer);
     public void removeObserver(Observer observer);
     public void notifyObservers(int strokes, int par);
